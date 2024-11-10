@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Design Dashboard with Graph</title>
+    <link rel="stylesheet" href="dash.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+   
+    <div class="sidebar">
+           <h2>Interior Designs</h2>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="index.html#designs">Design Types</a></li>
+           <li><a href="#charts">Dashboard</a></li> 
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <section id="overview">
+            <h1>Welcome to Interior Designs Dashboard</h1>
+        </section>
+  
+        <section id="charts">
+            <h2>Dashboard</h2>
+            <div class="chart-container">
+                <canvas id="roomSizeChart" width="300" height="150"></canvas>
+            </div>
+        </section>
+
+        <section id="popular-design">
+            <h2>Popular Design</h2>
+            <div class="chart-container">
+                <canvas id="roomTypeChart" width="300" height="150"></canvas>
+            </div>
+        </section>
+
+        <section id="status">
+            <h2>Status</h2>
+            <div class="chart-container">
+                <canvas id="statusChart" width="300" height="150"></canvas>
+            </div>
+        </section>
+
+        <section id="views">
+            <h2>Views</h2>
+            <div class="chart-container">
+                <canvas id="viewsChart" width="300" height="150"></canvas>
+            </div>
+        </section>
+
+        <script src="dash.js"></script> 
+</body>
+</html>
