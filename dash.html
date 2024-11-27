@@ -8,13 +8,12 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-   
     <div class="sidebar">
-           <h2>Interior Designs</h2>
+        <h2>Interior Designs</h2>
         <ul>
             <li><a href="#overview">Overview</a></li>
             <li><a href="index.html#designs">Design Types</a></li>
-           <li><a href="#charts">Dashboard</a></li> 
+             
         </ul>
     </div>
 
@@ -24,33 +23,35 @@
         </section>
   
         <section id="charts">
-            <h2>Dashboard</h2>
+            <h2>Roomscale</h2>
             <div class="chart-container">
-                <canvas id="roomSizeChart" width="300" height="150"></canvas>
+                <canvas id="roomSizeChart"></canvas>
             </div>
         </section>
 
         <section id="popular-design">
             <h2>Popular Design</h2>
             <div class="chart-container">
-                <canvas id="roomTypeChart" width="300" height="150"></canvas>
+                <canvas id="roomTypeChart"></canvas>
             </div>
         </section>
 
         <section id="status">
             <h2>Status</h2>
             <div class="chart-container">
-                <canvas id="statusChart" width="300" height="150"></canvas>
+                <canvas id="statusChart"></canvas>
             </div>
         </section>
 
         <section id="views">
             <h2>Views</h2>
             <div class="chart-container">
-                <canvas id="viewsChart" width="300" height="150"></canvas>
+                <canvas id="viewsChart"></canvas>
             </div>
         </section>
 
-        <script src="dash.js"></script> 
+    </div>
+
+    <script src="dash.js"></script> 
 </body>
 </html>
